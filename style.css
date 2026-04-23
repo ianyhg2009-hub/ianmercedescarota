@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(135deg, #1f2a35, #0f1720);
+    font-family: "Inter", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+/* FORMULARIO */
+form {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* TARJETA */
+.product-card {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+/* IMAGEN */
+.image-card {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* COLORES */
+.colors {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.color-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    background: #2a2a2a;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.color-option:hover {
+    background: #3a3a3a;
+}
+
+/* CÍRCULOS */
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.red {
+    background: red;
+}
+
+.gray {
+    background: gray;
+}
+
+/* BOTÓN */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #222;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #444;
+}
